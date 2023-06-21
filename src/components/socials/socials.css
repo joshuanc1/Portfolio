@@ -1,0 +1,54 @@
+.socials_container {
+    background-image: url('../../assets/socials.jpg');
+    height: 500px;
+    background-size: cover;
+    color: whitesmoke;
+
+}
+
+.socials_container-inner {
+    padding-top: 10%;
+    padding-left: 10%;
+    gap: 20px;
+}
+.socials_container-inner h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.icon-img{
+    width: auto;
+    height: 50px;
+}
+
+.socials_container-links-container-outer{
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link p {
+    margin-left: 1rem;
+}
+
+.social-button {
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: rgb(0, 207, 207);
+}
+
+.social-button:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}

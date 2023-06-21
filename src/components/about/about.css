@@ -1,0 +1,64 @@
+.about-container {
+    background-image: url('../../assets//chalkboard.jpg');
+    height: 500px;
+    background-size: contain;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-me{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-me h3 {
+    font-size: 1.5em;
+}
+
+.about-me h4 {
+    color: rgb(0, 207, 207);
+    font-size: 1.25em;
+}
+
+.about-me p {
+    opacity: 75%;
+}
+
+.about-tools{
+    margin-left: 2rem;
+    height: 290px;
+}
+
+.about-tech{
+    height: 50px;
+    width: auto;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    opacity: 0;
+    transform: translateX(500px);
+    
+}
+
+.about-tech-show {
+    height: 50px;
+    width: auto;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    transform: translateX(0px);
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+
+
+.about-tools  h3{
+    font-size: 1.5em;
+}

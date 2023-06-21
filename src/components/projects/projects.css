@@ -1,0 +1,22 @@
+.project_container{
+    background-image: url('../../assets/projectbackground.jpg');
+    height: 1000px;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 'WR WR '
+                        'OP OP OP'
+                        'OP OP OP';
+}
+.project_container-header {
+    color: whitesmoke;
+}
+
+
+.Writer_Road{
+    grid-area: WR;
+    width: 600px;
+    height: 400px;
+    color: whitesmoke;
+    display: flex;
+    gap: 1rem;
+}
