@@ -15,12 +15,11 @@ export const useSlideInScreen = (myRef, options) => {
 
     if(currentTarget) observer.observe(currentTarget);
     
-    
     return () => {
       if(currentTarget) observer.unobserve(currentTarget);
     }
 
-  }, [myRef]);
+  }, [myRef, options]);
 
   return isVisible;
 }

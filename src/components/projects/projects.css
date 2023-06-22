@@ -2,21 +2,86 @@
     background-image: url('../../assets/projectbackground.jpg');
     height: 1000px;
     background-size: cover;
-    display: grid;
-    grid-template-areas: 'WR WR '
-                        'OP OP OP'
-                        'OP OP OP';
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
 }
 .project_container-header {
     color: whitesmoke;
+    text-align: end;
 }
 
 
 .Writer_Road{
-    grid-area: WR;
-    width: 600px;
+    width: 700px;
     height: 400px;
     color: whitesmoke;
     display: flex;
     gap: 1rem;
+    transform: translateX(-1000px);
 }
+
+
+.show {
+    transform: translateX(0);
+    transition: 1s;
+}
+
+
+
+.Writer_Road-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Writer_Road-info div:nth-child(2) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Writer_Road-links :first-child{
+   margin-right: 1rem;
+}
+.Writer_Road-stack {
+    display: flex;
+    gap: .5rem;
+}
+
+.Writer_Road-links > a:hover {
+    color: turquoise;
+}
+
+.writer_road-img{
+    position: relative;
+    isolation: isolate;
+    
+}
+
+.writer_road-img::before,
+.writer_road-img::after {
+   
+    content: "";
+    inset: 0;
+    position: absolute;
+    background-color: white;
+    filter: blur(0.5rem);
+    z-index: -1;
+    height: 300px;
+    width: 450px;
+    opacity: 0%;
+    animation: light 5s infinite;
+}
+
+
+@keyframes light {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+ }
+    
