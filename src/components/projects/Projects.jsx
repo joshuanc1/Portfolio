@@ -20,7 +20,7 @@ const Projects = ({htmlIcon, cssIcon, reactIcon, jsIcon}) => {
             <a href="https://github.com/joshuanc1/WritersRoad" target="blank">
               Github
             </a>
-            <a href="http://writersroad.online/">
+            <a href="http://writersroad.online/" target="blank">
               writersroad.online
             </a>
 
