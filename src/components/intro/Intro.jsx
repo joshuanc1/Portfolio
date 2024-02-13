@@ -3,7 +3,7 @@ import './intro.css';
 import cloudArt from '../../assets/profile.jpg';
 
 const Intro = () => {
-  const [roles, setRoles] = useState(["Full-stack Web Developer", "React-lover and learner", "Aspiring Fantasy Writer", "Looking for work", "Full-stack Web Developer"]);
+  const [roles, setRoles] = useState(["Full-stack Web Developer", "Data Analyst", "React-Learner", "Looking for work", "Full-stack Web Developer"]);
 
   return (
     <div id="Intro" className='intro-container'>
